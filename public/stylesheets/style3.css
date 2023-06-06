@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+  }
+  
+  #main{
+    width: 100%;
+    
+    
+  }
+  
+  #nav{
+    width: 100%;
+    height: 44px;
+    background-color: rgb(14, 13, 13);
+    position: fixed;
+    gap: 37px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 9999;
+  }
+  #nav a{
+    color: rgb(252, 246, 246);
+    text-decoration: none;
+    font-family: "Gilroy";
+    opacity: 0.8;
+    font-size: 13px;
+  }
+  #nav i{
+    color: rgb(245, 241, 241);
+    opacity: 0.9;
+  }
+  #nav i:hover{
+    color: #ffff;
+    z-index: 9999;
+    opacity: 5;
+  }
+  #nav a:hover{
+    color: #ffff;
+    z-index: 9999;
+    opacity: 5;
+  }
+  #home{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+  }
+  #sec{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+  #third{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 254, 254);
+  }
+  #left{
+    left: 25%;
+    top: 7.5%;
+    height: 92%;
+    width: 35%;
+     
+    position: absolute;
+  }
+  #home #left #photo{
+     width: 465px;
+     height: 555px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/ipad-10.9/b/images/overview/hero/hero__ecv967jz1y82_large.jpg);
+  }
+  #home h1{
+    top: 43%;
+    left: 60%;
+    color: black; 
+    position: absolute;
+    font-size: 60px;
+    font-family: "Gilroy";
+    font-weight: 600;
+  }
+  #home h2{
+    top: 55%;
+    left: 53%;
+    color: black; 
+    position: absolute;
+    font-size: 28px;
+    font-family: "Gilroy";
+    font-weight: 450;
+  }
+  #text{
+    top: 63%;
+    left: 57%;
+    position: absolute;
+    display: flex;
+    gap: 30px;
+  }
+  #text a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+  }
+  #text i{
+     margin-top: 2.5px;
+    color: rgb(99, 99, 254);
+    font-size: 20px;
+  }
+  #text a:hover{
+    border-bottom: 2.5px solid  rgb(96, 96, 253);
+    
+  }
+  #sec #text2{
+   top: (calc(2000px - 100vh));
+   left: 42%;
+   
+    
+   position: absolute;
+  }
+  
+  #sec #text2 h1{
+    letter-spacing: 0.5px;
+    margin-top: 35px;
+    color: white;
+    font-size: 50px;
+    font-family: "Gilroy";
+    font-weight: 600; 
+  }
+  
+  #sec #text2 h3{
+    color: white;
+    font-size: 24px;
+    font-family: "Gilroy";
+    font-weight: 460;
+    margin-left: 75px;
+    margin-top: 3px;
+    letter-spacing: 0.5px;
+    
+  }
+  #text3{
+    display: flex;
+    margin-top: 20px;
+    gap: 37px;
+  }
+  #text3 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+    margin-left: 25px;
+  }
+  #text3 i{
+    margin-top: 2.5px;
+   color: rgb(99, 99, 254);
+   font-size: 20px;
+  }
+  #text3 a:hover{
+   border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  #sec #photo2{
+    position: absolute;
+    top: 780px;
+    left: 30%;
+    width: 45%;
+    height: 70vh;
+    background-color: aquamarine;
+    background-image: url(https://www.apple.com/v/iphone-14-pro/b/images/meta/iphone-14-pro_overview__e2a7u9jy63ma_og.png);
+    background-position: center;
+    background-size: cover;
+  }
+  #third #text4{
+    top: (calc(2000px - 200vh));
+    left: 42%;
+    position: absolute;
+  }
+  
+  #third #text4 h1{
+     letter-spacing: 0.5px;
+     margin-top: 35px;
+     color: rgb(11, 11, 11);
+     font-size: 50px;
+     font-family: "Gilroy";
+     font-weight: 600; 
+  }
+  
+  #third #text4 h3{
+     color: rgb(10, 10, 10);
+     font-size: 24px;
+     font-family: "Gilroy";
+     font-weight: 460;
+     margin-left: 25px;
+     margin-top: 3px;
+     letter-spacing: 0.5px;
+     
+  }
+  #text5{
+     display: flex;
+     margin-top: 17px;
+     gap: 34px;
+  }
+  #text5 a{
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 500;
+     font-family: "Gilroy";
+     color: rgb(99, 99, 254);
+     display: flex;
+     margin-left: 10px;
+  }
+  #text5 i{
+     margin-top: 2.5px;
+    color: rgb(99, 99, 254);
+    font-size: 20px;
+  }
+  #text5 a:hover{
+    border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  #photo3{
+    background-image: url(https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-hero-220907-geo_Full-Bleed-Image.jpg.large.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 1382px;
+    left: 22%;
+    width: 48%;
+    height: 70vh;
+    background-color: aquamarine;
+  }
+  #fourth{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+  }
+  #fourth #left{
+    top:0;
+    left: 1.5%;
+    width: 48%;
+    height: 100%;
+    background-color: rgb(28, 1, 28);
+    position: absolute;
+     
+  }
+  #left #photo4{
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-11-og-202210?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1664504610941);
+    background-position: center;
+    background-size: cover;
+    height: 65%;
+    width: 100%;
+    top: 30%;
+    position: absolute;
+  }
+  #fourth #right{
+    top:0;
+    left: 50.5%;
+    width: 48%;
+    height: 100%;
+    background-color: rgb(255, 249, 249);
+    position: absolute;
+  
+  }
+  #fourth h1{
+    color:#ffff;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "Gilroy";
+    font-weight: 550;
+  }
+  #fourth h3{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "gilroy";
+    display: flex;
+    margin-left: 220px;
+  
+  }
+  #text6{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 230px;
+    gap: 25px;
+  }
+  #text6 a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+    
+     
+  }
+  #text6 i{
+    margin-top: 2.5px;
+   color: rgb(99, 99, 254);
+   font-size: 20px;
+  }
+  #text6 a:hover{
+   border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  
+  #photo5{
+    width: 100px;
+    height:30px;
+    top: 60px;
+    left: 38%;
+    position: absolute;
+     background-image: url(appletv4k.png);
+     background-position: center;
+    background-size: cover;
+    
+  }
+  #right h1{
+    top: 80px;
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    margin-left: 170px;
+    font-family: "Gilroy";
+    font-weight: 450;
+  }
+  #right h2{
+    top: 125px;
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    margin-left: 160px;
+    font-family: "Gilroy";
+    font-weight: 450;
+  }
+  #text7{
+    top: 150px;
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 200px;
+    gap: 25px;
+  }
+  #text7 a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+  }
+  #text7 i{
+    margin-top: 2.5px;
+   color: rgb(99, 99, 254);
+   font-size: 20px;
+  }
+  #text7 a:hover{
+   border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  #right #photo6{
+        background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-tv-4k-hero-select-202210_FMT_WHH?wid=640&hei=600&fmt=jpeg&qlt=90&.v=1664896361164 );
+        background-position: center;
+        background-size: cover;
+        height: 60%;
+        width: 70%;
+        top: 35%;
+        left: 15%;
+        position: absolute;
+  }
+  #main #fifth{
+    width: 100%;
+    height: 100vh;
+   
+    position: relative;
+  }
+  #fifth #left2{
+    top: 2%;
+    left: 1.5%;
+    width: 48%;
+    height: 98%;
+    background-color: rgb(249, 245, 245);
+    position: absolute;
+  }
+  #fifth #right2{
+    top: 2%;
+    left: 50.5%;
+    width: 48%;
+    height: 98%;
+    background-color: black;
+    position: absolute;
+  }
+  #main #sixth{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+  }
+  #sixth #left3{
+    top:2%;
+    left: 1.5%;
+    width: 48%;
+    height: 98%;
+    background-color: white;
+    position: absolute;
+  }
+  #sixth #right3{
+    top: 2%;
+    left: 50.5%;
+    width: 48%;
+    height: 98%;
+    background-color: black;
+    position: absolute;
+  }
+  #photo7{
+    background-image: url(https://s.yimg.com/uu/api/res/1.2/0l.3Hvkcq9RuPEv2hjTLQg--~B/Zmk9ZmlsbDtoPTQwNTt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/757bc950-2ed2-11ed-bcfa-7d344d3eacf7.cf.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 58%;
+    width: 100%;
+    top: 38%; 
+    position: absolute;
+  }
+  #photo8{
+    background-size: cover;
+    background-position: center;
+    height: 34px;
+    width: 150px;
+    top: 10%;
+    left: 35%; 
+    background-image: url( https://images.macworld.co.uk/cmsdata/features/3681135/how_to_type_apple_logo_1200a.jpg); 
+    position: absolute;
+  }
+  #fifth #left2 h6{
+    font-size: 13px;
+    font-weight: "Gilroy";
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(252, 166, 6);
+    letter-spacing: 2px;
+    position: absolute;
+    top: 16%;
+    left: 43%;
+  }
+  #fifth #left2 h5{
+    font-size: 20px;
+    font-weight: "Gilroy";
+    font-weight: 500;
+    color: black;
+    
+    position: absolute;
+    top: 20%;
+    left: 35%;
+  }
+  
+  #text8{
+    top: 140px;
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 200px;
+    gap: 25px;
+  }
+  #text8 a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+  }
+  #text8 i{
+    margin-top: 2.5px;
+   color: rgb(99, 99, 254);
+   font-size: 20px;
+  }
+  #text8 a:hover{
+   border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  #photo9{
+    background-size: cover;
+    background-position: center;
+    height: 75%;
+    width: 100%;
+    top: 25%;
+    background-image: url(https://www.apple.com/v/apple-watch-series-8/b/images/meta/gps-lte__de35dernyje6_og.png);
+    position: absolute;
+  }
+  #photo10{
+    background-size: cover;
+    background-position: center;
+    height: 30px;
+    width: 120px;
+    top: 10%;
+    left: 38%; 
+    position: absolute;
+    background-image: url(watch.png);
+  }
+  #fifth #right2 h6{
+    font-size: 13px;
+    font-weight: "Gilroy";
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(250, 11, 11);
+    letter-spacing: 2px;
+    position: absolute;
+    top: 16%;
+    left: 43%;
+  }
+  #fifth #right2 h5{
+    font-size: 20px;
+    font-weight: "Gilroy";
+    font-weight: 500;
+    color: white;
+    
+    position: absolute;
+    top: 20%;
+    left: 35%;
+  }
+  #fifth #text9{
+     
+    
+    display: flex;
+    margin-top: 160px;
+    margin-left: 210px;
+    gap: 25px;
+  }
+  #text9 a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+    z-index: 999;
+  }
+  #text9 i{
+    margin-top: 2.5px;
+   color: rgb(99, 99, 254);
+   font-size: 20px;
+  }
+  #text9 a:hover{
+   border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  #photo11{
+    background-size: cover;
+    background-position: center;
+    height: 65%;
+    width: 100%;
+    top: 30%;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-og-202206?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1653095944659);
+    position: absolute;
+  }
+  #sixth h1{
+    color:black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Gilroy";
+    font-weight: 550;
+  }
+  #sixth h3{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "gilroy";
+    display: flex;
+    margin-left: 210px;
+    margin-top: 3px;
+  
+  }
+  #text10{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 210px;
+    gap: 25px;
+  }
+  #text10 a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+    
+     
+  }
+  #text10 i{
+    margin-top: 2.5px;
+   color: rgb(99, 99, 254);
+   font-size: 20px;
+  }
+  #text10 a:hover{
+   border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  #photo12{
+    background-size: cover;
+    background-position: top;
+    height: 60%;
+    width: 100%;
+    top: 39%;
+    position: absolute;
+    background-image: url(https://www.apple.com/newsroom/images/product/airpods/standard/Apple-AirPods-Pro-2nd-gen-hero-220907_big.jpg.large.jpg);
+  }
+  #sixth #right3 h1{
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Gilroy";
+    font-weight: 550;
+  }
+  #sixth #right3 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "gilroy";
+    display: flex;
+    margin-left: 180px;
+    margin-top: 3px;
+  
+  }
+  #text11{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 210px;
+    gap: 25px;
+  }
+  #text11 a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(99, 99, 254);
+    display: flex;
+    
+     
+  }
+  #text11 i{
+    margin-top: 2.5px;
+   color: rgb(99, 99, 254);
+   font-size: 20px;
+  }
+  #text11 a:hover{
+   border-bottom: 2.5px solid  rgb(96, 96, 253);
+  }
+  
